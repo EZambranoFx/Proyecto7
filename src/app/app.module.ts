@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FlexLayoutModule } from "@angular/flex-layout";
 import {MatIconModule} from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
@@ -30,6 +31,7 @@ import { MenuComponent } from './shared/menu/menu.component';
     MatListModule,
     MatIconModule,
     MatToolbarModule,
+    BrowserAnimationsModule,
     MatCardModule
   ],
   providers: [],
