@@ -4,7 +4,7 @@ import {HttpClient} from '@angular/common/http';
   providedIn: 'root'
 })
 export class ServicioCategoriaService {
-  private URL: string = 'http://localhost:3000/rest/categoria/findAll/json';
+  private URL: string = 'https://restapip7-production.up.railway.app/rest/categoria/findAll/json';
   constructor(private http:HttpClient) { }
   getResponse() {
     return this.http.get(this.URL);

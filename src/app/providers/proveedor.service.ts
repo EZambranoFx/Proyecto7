@@ -4,7 +4,7 @@ import {HttpClient} from '@angular/common/http';
   providedIn: 'root'
 })
 export class ProveedorService {
-  private URL: string = 'http://localhost:3000/rest/pedido/findAll/json';
+  private URL: string = 'https://restapip7-production.up.railway.app/rest/pedido/findAll/json';
   constructor(private http:HttpClient) { }
   getResponse() {
     return this.http.get(this.URL);

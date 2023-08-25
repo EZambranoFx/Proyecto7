@@ -1,7 +1,7 @@
 export interface InterfazProducto {
     idproducto: number
     nombre: string
-    precio: string
+    precio: string 
     descripcion: string
     stock: string
     categoria_idcategoria: number
