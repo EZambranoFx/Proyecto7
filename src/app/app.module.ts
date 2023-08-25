@@ -1,6 +1,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import{HttpClientModule} from '@angular/common/http';
+import {MatSelectModule} from '@angular/material/select';
+import { FormsModule } from '@angular/forms';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import { MatTableModule } from '@angular/material/table';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FlexLayoutModule } from "@angular/flex-layout";
 import {MatIconModule} from '@angular/material/icon';
@@ -24,6 +29,11 @@ import { MenuComponent } from './shared/menu/menu.component';
     MenuComponent
   ],
   imports: [
+    HttpClientModule,
+    MatSelectModule,
+    FormsModule,
+    MatFormFieldModule,
+    MatTableModule,
     FlexLayoutModule,
     BrowserModule,
     AppRoutingModule,
